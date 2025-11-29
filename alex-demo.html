@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Alex – Vista de ejemplo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Estilos generales del sitio -->
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- Estilos específicos de la demo -->
+  <link rel="stylesheet" href="css/demo.css" />
+</head>
+<body>
+  <main>
+    <h1 class="demo-title">
+      Vista de ejemplo – Alex versión web
+    </h1>
+    <p class="demo-subtitle">
+      Esta es una maqueta estática que muestra cómo podría verse Alex funcionando como asistente en un navegador web.
+    </p>
+
+    <div class="app-wrapper">
+      <!-- Lateral izquierdo -->
+      <aside class="app-sidebar">
+        <div class="assistant-header">
+          <img src="images/logo sin fondo.JPG" alt="Logo Alex" />
+          <div>
+            <h2>Alex</h2>
+            <small><span class="status-dot"></span>Disponible 24/7</small>
+          </div>
+        </div>
+        <p>
+          Asistente virtual especializado en salud y emergencias. No reemplaza al personal médico,
+          pero te guía y conecta con ayuda calificada cuando la necesitas.
+        </p>
+
+        <h3>Accesos rápidos</h3>
+        <div class="quick-actions">
+          <button class="emergency"><span class="icon">🚨</span> Emergencia y primeros auxilios</button>
+          <button><span class="icon">🧪</span> Interpretar resultados médicos</button>
+          <button><span class="icon">📅</span> Recordar o agendar cita</button>
+          <button><span class="icon">📍</span> Buscar hospitales cercanos</button>
+          <button><span class="icon">📂</span> Consultar historial de atenciones</button>
+        </div>
+
+        <h3>Principios de seguridad</h3>
+        <ul>
+          <li>Certificación por autoridades de salud.</li>
+          <li>Encriptación y acceso restringido a datos.</li>
+          <li>Políticas claras de privacidad.</li>
+        </ul>
+      </aside>
+
+      <!-- Panel principal -->
+      <section class="app-main">
+        <div class="chat-window">
+          <div class="msg msg-bot">
+            Hola, soy Alex. ¿En qué puedo ayudarte hoy?
+            <div class="pill-row">
+              <span class="pill">Emergencia</span>
+              <span class="pill">Resultados médicos</span>
+              <span class="pill">Citas</span>
+            </div>
+          </div>
+
+          <div class="msg msg-user">
+            Tengo un dolor fuerte en el pecho y no sé si es grave.
+          </div>
+
+          <div class="msg msg-bot">
+            Gracias por confiar en mí. Vamos a revisar rápidamente tu situación, pero recuerda que
+            no sustituyo una valoración médica de urgencias.
+            <br /><br />
+            1. ¿Hace cuánto empezó el dolor?<br />
+            2. ¿Tienes dificultad para respirar, sudor frío o mareo intenso?<br />
+            3. ¿Tienes antecedentes de problemas cardíacos o de presión alta?
+          </div>
+
+          <div class="msg msg-bot">
+            Mientras respondes, si el dolor es muy intenso o se acompaña de falta de aire,
+            te recomiendo dirigirte inmediatamente al servicio de urgencias más cercano
+            o llamar a la línea de emergencias.
+          </div>
+        </div>
+
+        <div class="chat-input">
+          <input type="text" placeholder="Escribe aquí tu mensaje para Alex (ej. 'interpretar examen de sangre')" />
+          <button>Enviar</button>
+        </div>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
+
